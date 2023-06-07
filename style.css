@@ -1,23 +1,26 @@
 @font-face {
     font-family: font-1;
     src: url("./assets/fonts/digital-7.ttf");
-}
-
-* {
+  }
+  
+  * {
     overflow: hidden;
-}
-
-body {
+  }
+  
+  body {
     background: black;
-}
-
-#counter {
+  }
+  
+  #counter {
     font-family: font-1;
     height: 100vh;
     color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10rem;
+    font-size: 50vh;
     transition: color 0.5s;
+    letter-spacing: 75px;
   }
+  
+  
