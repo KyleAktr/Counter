@@ -10,6 +10,13 @@
   body {
     background: black;
   }
+
+  .landing-page {
+    display: flex;
+    /* justify-content: center;
+    text-align: center;
+    padding: 50vh; */
+  }
   
   #counter {
     font-family: font-1;
