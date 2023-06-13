@@ -17,6 +17,18 @@
     text-align: center;
     padding: 50vh; */
   }
+
+  #start-btn {
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px 15px;
+    border: 1px solid black;
+  }
+  #start-btn:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+  }
   
   #counter {
     font-family: font-1;
