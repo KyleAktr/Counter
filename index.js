@@ -31,4 +31,13 @@ document.addEventListener("keydown", function (event) {
     counter++;
     updateCounter();
   }
+  if (event.key === "a" || event.key === "A") {
+    console.log("lancement de la video");
+    let videoElement = document.getElementById("extinction-video");
+    videoElement.style.display = "block"; // Afficher la vidéo
+    startElement.style.display = "none"; // Masquer le champ de départ
+    counterElement.style.display = "none"; // Masquer le compteur
+    videoElement.currentTime = 0;
+    videoElement.play();
+  }
 });
